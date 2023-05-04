@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Old Pals</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+
+
+    <!--
+    <nav>
+      <ul>
+        <li><a href="hamburger-test.html">Home</a></li>
+        <li><a href="about-us.html">About us</a></li>
+        <li><a href="how-it-works.html">How it works</a></li>
+        <li><a class="active" href="#">Become a Member</a></li>
+      </ul>
+    </nav>
+    -->
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html"> <img src="img/logo.png" alt="old pals logo"></a><br>
+      <a href="about-us.html">About Us</a>
+      <a href="upcoming-events.html">Upcoming Events</a>
+      <a href="how-it-works.html">How it works</a>
+      <a href="faq.html">FAQ</a>
+      <a href="become-a-member.html">Become a Member</a>
+      <a href="log-in.html" class="active">Log In</a>
+      <a href="javascript:void(0); " class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+
+      <div id="container">
+<div id="gridcontainer8">
+  <img class="resp" img id="optionalstuff" src="img/3people.jpg">
+  <div>
+  <h5>Log In</h5>
+    <form action="/action_page.php">
+  <label for="Email">Email:</label><br>
+  <input type="text" id="email" name="email"><br><br>
+  <label for="Password">Password:</label><br>
+  <input type="text" id="password" name="password"><br><br>
+
+    <button type="button">LOG IN</button>
+
+<p>Forgot Password? <a href="#"> Click here</a>
+    <p>Don't have an account?
+      <a href="become-a-member.html">
+    <button-1 type="button">SIGN UP</button></p>
+  </a>
+    </form>
+</div>
+</div>
+  </div>
+
+
+  <div id="gridcontainer9">
+    <div>
+      <br>
+    <footer><h4>GET CONNECTED</h4><br> </div>
+      <div>
+        <br>
+        <br>
+      <h4>Dubai, UAE</h4>
+      </div>
+      <div>
+        <br>
+        <br>
+        <img src="img/uim_instagram-alt.png" alt="instagram logo">
+        <img src="img/brandico_facebook-rect.png" alt="facebook logo">
+    </div>
+    </footer>
+  </div>
+
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Old Pals</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+  <!--
+  <nav>
+    <ul>
+      <li><a href="hamburger-test.html">Home</a></li>
+      <li><a class="active" href="#">About us</a></li>
+      <li><a href="how-it-works.html">How it works</a></li>
+      <li><a href="become-a-member.html">Become a Member</a></li>
+    </ul>
+  </nav>
+  -->
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html"> <img src="img/logo.png" alt="old pals logo"></a><br>
+    <a href="about-us.html">About Us</a>
+    <a href="upcoming-events.html">Upcoming Events</a>
+    <a href="how-it-works.html">How it works</a>
+    <a href="faq.html" class="active">FAQ</a>
+    <a href="become-a-member.html">Become a Member</a>
+    <a href="log-in.html">Log In</a>
+    <a href="javascript:void(0); " class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div id="container">
+
+    <div id="topimage4">
+      <h2>WE'RE HERE TO HELP YOU</h2>
+      <!--<img class="resp" src="img/faq.png"> -->
+    </div>
+
+
+    <button class="accordion"><h4>Is this platform free to use?</h4></button>
+    <div class="panel">
+      <h4 style="text-align:center;"> Yes, we dont charge for anything! We’re really just trying to help make the world a little bit better, one match at a time.</h4>
+</div>
+
+<button class="accordion"><h4>How will I know if I have a match?</h4></button>
+<div class="panel">
+  <h4 style="text-align:center;">Once you have a match, our pal-bot will send you an email instantly informing you about your match!</h4>
+</div>
+
+<button class="accordion"><h4>Is it possible for me to get a match within the same city?</h4></button>
+<div class="panel">
+  <h4 style="text-align:center;">Yes it is possible to get a match in your city, you can request that while filling out the registration form under "preferences".</h4>
+</div>
+
+<button class="accordion"><h4>What if I want to reschedule my call with my match?</h4></button>
+<div class="panel">
+  <h4 style="text-align:center;">If you want to reschedule your call with your match, login in to your dashboard and just drop in a message to your match with your timings.</h4>
+</div>
+
+<button class="accordion"><h4>Whom can I contact if any emergency arises?</h4></button>
+<div class="panel">
+  <h4 style="text-align:center;">You can always contact our 24/7 support team at <a href="mailto:customerservice@oldpals.org">customerservice@oldpals.org</a> and we will contact you immediately in case of any emergencies. </h4>
+</div>
+
+<button class="accordion"><h4>What video calling software is used?</h4></button>
+<div class="panel">
+  <h4 style="text-align:center;">We will be using google-meet for all our calls, since you won't have to download any additional softwares. However, please mention in your registration form if you have trouble using google-meet, we will try our best to help you out.</h4>
+</div>
+
+<button class="accordion"><h4>What if I have a complaint against my match?</h4></button>
+<div class="panel">
+  <h4 style="text-align:center;">We're sorry to hear that! If you have a complaint against your match, please email <a href="mailto:customerservice@oldpals.org">customerservice@oldpals.org</a> with the subject "Complaint" followed by your name and we will respond to your complaint within 24 hours.</h4>
+</div>
+
+<button class="accordion"><h4>What if I want to change my match?</h4></button>
+<div class="panel">
+  <h4 style="text-align:center;">We're sorry to hear that! If you want to change your match, please email <a href="mailto:customerservice@oldpals.org">customerservice@oldpals.org</a> with the subject "Change of match" followed by your name and we will try again to find you a match soon!</h4>
+</div>
+
+
+
+    <div class="connectbox">
+      <p>Having someone to talk to makes all the difference</p>
+      <a href="become-a-member.html">
+      <button type="button">SIGN ME UP</button>
+    </a>
+    </div>
+
+
+  </div>
+
+
+  <div id="gridcontainer9">
+    <div>
+      <br>
+    <footer><h4>GET CONNECTED</h4><br> </div>
+      <div>
+        <br>
+        <br>
+      <h4>Dubai, UAE</h4>
+      </div>
+      <div>
+        <br>
+        <br>
+        <img src="img/uim_instagram-alt.png" alt="instagram logo">
+        <img src="img/brandico_facebook-rect.png" alt="facebook logo">
+    </div>
+    </footer>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("activ");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+
+
+
+</body>
+
+</html>
